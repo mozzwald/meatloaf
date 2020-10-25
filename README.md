@@ -3,9 +3,9 @@
 Commodore 64/128 WiFi Modem and IEC Serial Floppy Drive simulator device
 
 Code is based on and inspired by the following:
-Paul Rickard's ESP8266 Modem (https://github.com/RolandJuno/esp8266_modem) 
-Lars Wadefalk's UNO2IEC (https://github.com/Larswad/uno2iec)
-Steve White's Pi1541 (https://github.com/pi1541/Pi1541)
+* Paul Rickard's ESP8266 Modem (https://github.com/RolandJuno/esp8266_modem) 
+* Lars Wadefalk's UNO2IEC (https://github.com/Larswad/uno2iec)
+* Steve White's Pi1541 (https://github.com/pi1541/Pi1541)
 
 
 To setup your own MeatLoaf64 server check out this code.
