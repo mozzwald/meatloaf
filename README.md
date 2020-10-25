@@ -6,6 +6,7 @@ Code is based on and inspired by the following:
 * Paul Rickard's ESP8266 Modem (https://github.com/RolandJuno/esp8266_modem) 
 * Lars Wadefalk's UNO2IEC (https://github.com/Larswad/uno2iec)
 * Steve White's Pi1541 (https://github.com/pi1541/Pi1541)
+* Ardyesp's ESPWebDAV (https://github.com/ardyesp/ESPWebDAV)
 
 
 To setup your own MeatLoaf64 server check out this code.
@@ -16,6 +17,7 @@ Key Features
 ------------
 
 * WiFi modem for connecting to telnet BBSs
+* Can mount device's flash file system via WebDAV to edit contents
 * IEC Bus interface for loading data directly from flash memory or via HTTP
 * Can be configured to simulate multiple IEC devices (IDs 4-30)
 * Each device's configuration is switched out and persisted on access
