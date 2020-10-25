@@ -29,7 +29,7 @@ To Do
 
 * Standardize all Hayes Commands and add extended commands
 * Complete CBM DOS support
-* EXtend CBM DOS with device specific features
+* Extend CBM DOS with device specific features
 * Support all different CBM file, disk, tape, cart media image files from local flash file system
 * Add support for Fast Loaders
 * Port all code to ESP32 IDF
