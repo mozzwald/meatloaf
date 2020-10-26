@@ -40,6 +40,7 @@ To Do
 * Add SD card interface
 * Add Cassette tape interface
 * Add virtual printer/plotter interface
+* Add ZoomFloppy/IECHost capabilities
 
 
 References
