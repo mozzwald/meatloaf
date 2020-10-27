@@ -24,7 +24,7 @@ Key Features
 * Can mount device's flash file system via WebDAV to edit contents
 * IEC Bus interface for loading data directly from flash memory or via HTTP
 * Can be configured to simulate multiple IEC devices (IDs 4-30)
-* Each device's configuration is switched out and persisted on access
+* Each device's configuration is switched out and persisted on access (hidden folder ".sys")
 * Firmware can be updated via HTTP
 
 
@@ -41,6 +41,9 @@ To Do
 * Add Cassette tape interface
 * Add virtual printer/plotter interface
 * Add ZoomFloppy/IECHost capabilities
+* Add .URL/.WEBLOC file support (change URL/DIR when loading them)
+* If image isn't local, write saves to hidden folder ".save" (include hash of URL/PATH/IMAGE in filename)
+* Add web server for coinfiguration and control (http root hidden folder ".www")
 
 
 References
