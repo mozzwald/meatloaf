@@ -1,9 +1,16 @@
 #ifndef INTERFACE_H
 #define INTERFACE_H
 
+#ifdef ESP8266
 #include <ESP8266WiFi.h>
 #include <ESP8266HTTPClient.h>
 #include <LittleFS.h>
+#endif
+#ifdef ESP32
+#include <WiFi.h>
+#include <LITTLEFS.h>
+#endif
+
 
 #include "global_defines.h"
 #include "MemoryInfo.h"

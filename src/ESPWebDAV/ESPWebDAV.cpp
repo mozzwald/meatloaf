@@ -1,7 +1,12 @@
 // WebDAV server using ESP8266 and SD card filesystem
 // Targeting Windows 7 Explorer WebDav
 
+#ifdef ESP8266
 #include <ESP8266WiFi.h>
+#endif
+#ifdef ESP32
+#include <WiFi.h>
+#endif
 #include <SPI.h>
 #include <Hash.h>
 #include <time.h>

@@ -1,9 +1,12 @@
 #ifndef ESPMODEM_H
 #define ESPMODEM_H
 
+#ifdef ESP8266
 #include <ESP8266WiFi.h>
-#include <ESP8266HTTPClient.h>
-#include <ESP8266httpUpdate.h>
+#endif
+#ifdef ESP32
+#include <WiFi.h>
+#endif
 #include <WiFiClient.h>
 #include <WiFiServer.h>
 #include <EEPROM.h>
